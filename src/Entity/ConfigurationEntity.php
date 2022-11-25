@@ -7,8 +7,8 @@ interface ConfigurationEntity
 
 	public function getId(): string;
 
-	public function setContent(string $content);
+	public function setContent(?string $content);
 
-	public function getContent(): string;
+	public function getContent(): ?string;
 
 }
